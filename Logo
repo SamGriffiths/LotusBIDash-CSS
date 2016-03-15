@@ -1,0 +1,7 @@
+  Parent root = FXMLLoader.load(getClass().getResource("LoginFXML.fxml"));
+        Scene scene = new Scene(root);
+        stage.getIcons().add(new Image(getClass().getResourceAsStream("Lotus_logo_vector.png")));
+        stage.setTitle("Lotus BI Dashboard");
+        stage.setScene(scene);
+        stage.show();
+//        stage.getIcons().add(new Image("file:Lotus_logo_vector.svg") {});
